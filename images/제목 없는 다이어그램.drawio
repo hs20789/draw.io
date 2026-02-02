@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.6">
+  <diagram name="커스텀 gpt 아키텍처" id="RWEDV17DsMmyQFySK2gn">
+    <mxGraphModel dx="750" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" value="Azure App Service&lt;div&gt;[SWC API]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="116" width="116" x="82" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="300" width="393" x="259" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="114" width="126" x="292" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="사용자 정의&lt;div&gt;작업&lt;/div&gt;" vertex="1">
+          <mxGeometry height="53" width="91" x="309.5" y="109.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="챗 GPT" vertex="1">
+          <mxGeometry height="53" width="91" x="510" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-13" edge="1" parent="1" source="0e9oJ0Do0gwLefH1FnXD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" target="0e9oJ0Do0gwLefH1FnXD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-14" edge="1" parent="1" source="0e9oJ0Do0gwLefH1FnXD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" target="0e9oJ0Do0gwLefH1FnXD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="GPT&lt;div&gt;모델&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92" width="92" x="509.5" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="사용자 정의 GPT" vertex="1">
+          <mxGeometry height="30" width="119" x="295.5" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AI 플랫폼 - OpenAI" vertex="1">
+          <mxGeometry height="30" width="202" x="354.5" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-11" edge="1" parent="1" source="0e9oJ0Do0gwLefH1FnXD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" target="0e9oJ0Do0gwLefH1FnXD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-12" edge="1" parent="1" source="0e9oJ0Do0gwLefH1FnXD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" target="0e9oJ0Do0gwLefH1FnXD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-10" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;사용자&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="119" x="295.5" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="0e9oJ0Do0gwLefH1FnXD-15" edge="1" parent="1" source="0e9oJ0Do0gwLefH1FnXD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.984;entryY=0.505;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;" target="0e9oJ0Do0gwLefH1FnXD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
